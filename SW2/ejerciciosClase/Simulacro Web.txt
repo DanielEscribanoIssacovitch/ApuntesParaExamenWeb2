@@ -1,0 +1,79 @@
+1- cambiar el puerto en .env y BASE_URI
+
+2- Ir a OpenAPI (schema) library.schema.yaml:
+	-Vamos a la definición de BookMin
+	-Instalamos postman si queremos
+	-npm start y accedemos a localhost:puerto/api/v2/book
+	-JSON validator 
+	-En routes/book.js tenemos el get y la query 
+	en la función de let results añadimos 
+		.project({title:1, author:1})
+
+3- Vamos al esquema library.schema.yaml:
+	-Creamos link:
+	link:
+		type: string
+		format: uri
+	-en book.js
+		results.forEach(book => {
+			book["link"] = `localhost:${process.env.PORT}${process.env.BASE_URI}/book/${book._id}`
+
+4- En book.js buscamos la función router.delete()
+	
+	En postman: DELETE http://localhost:3010/api/v2/book/id (con id incorrecto el deleted count sale a 1 y sino a 0)
+	- En router.delete() debajo del let metemos un if:
+		if(result.deletedCount == 0){
+			res.send("Invalid Book Id").status(400);
+		} else{
+			res.status(200).send(result);
+		}
+PROBLEMA 2:
+1- 
+db.listingsAndReviews.find().sort({number_of_reviews: -1}).limit(1)
+
+2- 
+
+
+3-
+db.listingsAndReviews.aggregate([{"$group": {_id:"$property_type", count: {$sum:1}}}])
+
+4-
+
+
+1 EJERCICIO DE MONGODB Y OTRO DE OPENAPI
+TEORÍA
+##T1
+	Que es un servicio web
+	ventajas y desventajas 
+	webhooks
+	Tipos de servicios Web
+	SOAP VS REST
+	WSDL
+	WADL
+	
+##T2
+	XML bien formado y ejercicios
+	DTD ejercicios y ventajas e inconvenientes
+	XSD ejercicios y ventajas e inconvenientes
+	xPath ejercicios 
+	xQuery ejercicios
+	xQuery VS xPath
+	XSLT ejercicios
+	(Node js y rss no)
+##T3
+	JSON solo para la práctica
+##T4
+	REST TODO 
+	importante modelo de richeston (restFull,...)
+	YAML no 
+	Graph no
+	WeebHooks si 
+	Escalando la API todo 
+##T5
+	Hasta página 24 todo 
+
+60% práctica 40% teoría
+
+	
+
+

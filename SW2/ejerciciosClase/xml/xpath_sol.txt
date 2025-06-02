@@ -1,0 +1,21 @@
+Usa Xpath para responder a las siguientes preguntas:
+Los títulos de todas las escenas del segundo acto
+doc("hamlet.xml")//ACT[2]/SCENE/TITLE/text()
+
+¿Cuántas veces habla Hamlet?
+count(doc("hamlet.xml")//SPEECH[SPEAKER="HAMLET"])
+
+El texto de las líneas que contengan la palabra "king"
+doc("hamlet.xml")//SPEECH/LINE[contains(.," king ")]/text()
+
+El segundo diálogo (speech) de Bernardo en el tercer acto
+doc("hamlet.xml")//ACT[3]/SCENE[1]/SPEECH[SPEAKER="BERNARDO"][2]
+
+Número de líneas de cada diálogo (speech)
+doc("hamlet.xml")//SCENE/SPEECH/count(LINE)
+
+Número de líneas del diálogo (speech) con más líneas
+doc("hamlet.xml")/max(//SCENE/SPEECH/max(count(LINE)))
+
+Todos los diálogos (speech) de la tercera PERSONA del primer PGROUP dentro de PERSONAE
+doc("hamlet.xml")//SPEECH[SPEAKER=doc("hamlet.xml")//PGROUP[1]/PERSONA[3]]

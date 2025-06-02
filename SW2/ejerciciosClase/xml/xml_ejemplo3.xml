@@ -1,0 +1,20 @@
+<breakfast_menu>
+  <food>
+    <name>French Toast</name>
+    <price currency="$">4.50</price>
+    <description>Thick slices made from our homemade sourdough bread</DESCRIPTION>
+    <calories>600</calories>
+  </food>
+  <food>
+    <price currency>6.95</price>
+    <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+  <calories>950</calories>
+  </food>
+  <food></food>
+</breakfastMenu>
+<drinks_menu>
+  <drink>
+    <name>Coffe</name>
+    <price>1.5</price>
+  </drink>
+<drinks_menu/>

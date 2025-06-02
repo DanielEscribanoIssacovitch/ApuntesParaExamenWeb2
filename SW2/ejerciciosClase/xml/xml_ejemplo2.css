@@ -1,0 +1,29 @@
+bookstore { 
+  color: white; 
+  background-color : gray;
+  padding: 20px;
+}
+book {
+  margin: 20px;
+}
+title { 
+  color: green; 
+  font-size : 36px;
+  font-weight : bold;
+  background-color : powderblue; 
+}
+author {
+  font-size : 24px;
+}
+author:before {
+  content: "By: ";
+}
+year:before {
+  content: "Year: ";
+}
+price:after {
+  content: "€";
+}
+title, author, year, price { 
+  display : block; 
+}

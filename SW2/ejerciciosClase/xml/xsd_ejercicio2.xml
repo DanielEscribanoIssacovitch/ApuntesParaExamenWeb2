@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Orderdetails>
+  <Customer id="011">
+    <cname>Mark Lewis</cname>
+    <destination Country ="Australia" Delivdate=" 6 days">Free Delivery</destination>
+    <eid>MarkLew@hotmail.com</eid>
+  </Customer>
+  <Customer id="022">
+    <fname from="jersey">Loafther cris</fname>
+    <destination Country ="USA" Delivdate=" 11 days">Shipping Charges</destination>
+    <eid>Loafther@email.com</eid>
+  </Customer>
+  <Customer id="033">
+    <cname>Amal Raj</cname>
+    <destination Country ="Thailand" Delivdate=" 6 days">Shipping Charges</destination>
+    <email>Anamljjk@ymail.com</email>
+  </Customer>
+</Orderdetails>

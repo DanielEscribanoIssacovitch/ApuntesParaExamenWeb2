@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:wb="http://www.worldbank.org">
+  <data>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">54208</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1961</field>
+      <field name="Value">55434</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1962</field>
+      <field name="Value">56234</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1963</field>
+      <field name="Value">56699</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1964</field>
+      <field name="Value">57029</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1965</field>
+      <field name="Value">57357</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1966</field>
+      <field name="Value">57702</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1967</field>
+      <field name="Value">58044</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1968</field>
+      <field name="Value">58377</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1969</field>
+      <field name="Value">58734</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1970</field>
+      <field name="Value">59070</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1971</field>
+      <field name="Value">59442</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1972</field>
+      <field name="Value">59849</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1973</field>
+      <field name="Value">60236</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1974</field>
+      <field name="Value">60527</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1975</field>
+      <field name="Value">60653</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1976</field>
+      <field name="Value">60586</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1977</field>
+      <field name="Value">60366</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1978</field>
+      <field name="Value">60102</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1979</field>
+      <field name="Value">59972</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1980</field>
+      <field name="Value">60097</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1981</field>
+      <field name="Value">60561</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1982</field>
+      <field name="Value">61341</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1983</field>
+      <field name="Value">62213</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1984</field>
+      <field name="Value">62826</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1985</field>
+      <field name="Value">63024</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1986</field>
+      <field name="Value">62645</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1987</field>
+      <field name="Value">61838</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1988</field>
+      <field name="Value">61072</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1989</field>
+      <field name="Value">61033</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1990</field>
+      <field name="Value">62152</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1991</field>
+      <field name="Value">64623</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1992</field>
+      <field name="Value">68240</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1993</field>
+      <field name="Value">72495</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1994</field>
+      <field name="Value">76705</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1995</field>
+      <field name="Value">80324</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1996</field>
+      <field name="Value">83211</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1997</field>
+      <field name="Value">85450</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1998</field>
+      <field name="Value">87280</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1999</field>
+      <field name="Value">89009</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2000</field>
+      <field name="Value">90866</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2001</field>
+      <field name="Value">92892</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2002</field>
+      <field name="Value">94992</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2003</field>
+      <field name="Value">97016</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2004</field>
+      <field name="Value">98744</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2005</field>
+      <field name="Value">100028</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2006</field>
+      <field name="Value">100830</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2007</field>
+      <field name="Value">101226</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2008</field>
+      <field name="Value">101362</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2009</field>
+      <field name="Value">101452</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2010</field>
+      <field name="Value">101665</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2011</field>
+      <field name="Value">102050</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2012</field>
+      <field name="Value">102565</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2013</field>
+      <field name="Value">103165</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2014</field>
+      <field name="Value">103776</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2015</field>
+      <field name="Value">104339</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2016</field>
+      <field name="Value">104865</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2017</field>
+      <field name="Value">105361</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2018</field>
+      <field name="Value">105846</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2019</field>
+      <field name="Value">106310</field>
+    </record>
+    <record>
+      <field name="Country or Area" key="ABW">Aruba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">2020</field>
+      <field name="Value">106766</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AFE">Africa Eastern and Southern</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">130836765</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AFG">Afghanistan</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">8996967</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AFW">Africa Western and Central</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">96396419</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AGO">Angola</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">5454938</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ALB">Albania</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1608800</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AND">Andorra</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">13410</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ARB">Arab World</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">92197715</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ARE">United Arab Emirates</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">92417</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ARG">Argentina</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">20481781</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ARM">Armenia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1874119</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ASM">American Samoa</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">20127</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ATG">Antigua and Barbuda</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">54132</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AUS">Australia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">10276477</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AUT">Austria</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">7047539</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="AZE">Azerbaijan</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">3895398</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BDI">Burundi</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">2797925</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BEL">Belgium</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">9153489</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BEN">Benin</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">2431617</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BFA">Burkina Faso</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">4829289</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BGD">Bangladesh</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">48013505</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BGR">Bulgaria</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">7867374</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BHR">Bahrain</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">162429</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BHS">Bahamas, The</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">109532</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BIH">Bosnia and Herzegovina</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">3225664</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BLR">Belarus</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">8198000</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BLZ">Belize</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">92068</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BMU">Bermuda</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">44400</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BOL">Bolivia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">3656961</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BRA">Brazil</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">72179235</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BRB">Barbados</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">230985</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BRN">Brunei Darussalam</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">81707</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BTN">Bhutan</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">223284</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="BWA">Botswana</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">502733</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CAF">Central African Republic</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1501668</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CAN">Canada</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">17909009</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CEB">Central Europe and the Baltics</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">91401764</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CHE">Switzerland</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">5327827</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CHI">Channel Islands</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">109419</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CHL">Chile</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">8132988</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CHN">China</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">667070000</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CIV">Cote d'Ivoire</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">3503559</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CMR">Cameroon</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">5176920</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="COD">Congo, Dem. Rep.</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">15248256</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="COG">Congo, Rep.</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1018254</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="COL">Colombia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">16057714</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="COM">Comoros</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">191122</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CPV">Cabo Verde</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">201770</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CRI">Costa Rica</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1330787</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CSS">Caribbean small states</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">4194711</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CUB">Cuba</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">7141241</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CUW">Curacao</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">124826</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CYM">Cayman Islands</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">7870</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CYP">Cyprus</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">572933</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="CZE">Czech Republic</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">9602006</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DEU">Germany</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">72814900</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DJI">Djibouti</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">83634</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DMA">Dominica</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">60020</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DNK">Denmark</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">4579603</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DOM">Dominican Republic</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">3294222</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="DZA">Algeria</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">11057864</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EAP">East Asia &amp; Pacific (excluding high income)</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">894875757</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EAR">Early-demographic dividend</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">980003345</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EAS">East Asia &amp; Pacific</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1041673567</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ECA">Europe &amp; Central Asia (excluding high income)</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">274647228</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ECS">Europe &amp; Central Asia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">666753356</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ECU">Ecuador</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">4543658</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EGY">Egypt, Arab Rep.</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">26632891</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EMU">Euro area</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">265203956</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ERI">Eritrea</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1007586</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ESP">Spain</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">30455000</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EST">Estonia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">1211537</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="ETH">Ethiopia</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">22151284</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="EUU">European Union</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">356906098</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="FCS">Fragile and conflict affected situations</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">208280083</field>
+    </record>
+    <record xmlns:wb="http://www.worldbank.org">
+      <field name="Country or Area" key="FIN">Finland</field>
+      <field name="Item" key="SP.POP.TOTL">Population, total</field>
+      <field name="Year">1960</field>
+      <field name="Value">4429634</field>
+    </record>
+  </data>
+</Root>

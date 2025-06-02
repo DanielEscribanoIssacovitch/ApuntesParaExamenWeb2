@@ -1,0 +1,10 @@
+{
+	"name": "Nombre",
+	"artist": "Artista",
+	"dimension": {
+		"width": 120,
+		"heigth": 100
+	},
+	"description": "",
+	"tags": ["oil"]
+}

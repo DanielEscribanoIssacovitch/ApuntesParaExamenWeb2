@@ -1,0 +1,28 @@
+for $book in doc("xquery_ej1.xml")/bib/book
+order by number($book/price) descending
+return $book/title
+
+
+for $bib in doc("xquery_ej1.xml")/bib
+return ft:count($bib/book/author[text()contains text "Abiteboul"])
+
+count(for $book in doc("xquery_ej1.xml")//book
+return $book[author="Abiteboul"])
+
+count(doc("xquery_ej1.xml")//book[author="Abiteboul"])
+
+
+
+<authors>
+{for $bib in doc("xquery_ej1.xml")/bib
+let $author:=distinct-values($bib//author)
+for $auth in $author
+return <author><name>{$auth}</name><count>{data(ft:count($bib//author [text()contains text {$auth}]))}</count></author>}
+</authors>
+
+<authors>
+for $bib in doc("xquery_ej1.xml")/bib
+let $author:=distinct-values($bib//author)
+for $auth in $author
+return <author><name>{data($auth)}</name><count>(data(ft:count($bib//author [text()contains text {$auth}])))}</count></author>
+</authors>

@@ -1,0 +1,339 @@
+---
+openapi: 3.1.0
+info:
+  title: Cine
+  description: |
+    API de nuestro cine
+  version: 1.0.0
+tags:
+  - name: Gameplay
+paths:
+  /peliculas:
+    get:
+      summary: Obtener todas las películas
+      description: Obtener todas las películas
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/peliculas"
+    post:
+      summary: Crear una nueva película
+      description: Crear una nueva película
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/pelicula_post"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/pelicula"
+  "/peliculas/{id}":
+    parameters:
+    - $ref: "#/components/parameters/id"
+    get:
+      summary: Obtener información específica de la película
+      description: Obtener información específica de la película
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/pelicula"
+        "404":
+          description: Incorrect id
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+    put:
+      summary: Modificar información específica de la película
+      description: Modificar información específica de la película
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/pelicula_put"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/pelicula"
+        "404":
+          description: Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+    delete:
+      summary: Eliminar la película
+      description: Eliminar la película
+      responses:
+        "204":
+          description: Pelicula eliminada
+        "404":
+          description: Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+  "/peliculas/{id}/sesiones":
+    parameters:
+    - $ref: "#/components/parameters/id"
+    get:
+      summary: Obtener todas las sesiones de una película concreta
+      description: Obtener todas las sesiones
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/sesiones"
+    post:
+      summary: Crear una nueva sesión
+      description: Crear una nueva sesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/sesion_post"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/sesion"
+  "/peliculas/{id}/sesiones/{id}":
+    parameters:
+    - $ref: "#/components/parameters/id"
+    get:
+      summary: Obtener información específica de una sesión
+      description: Obtener información específica de una sesión
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/sesion"
+        "404":
+          description: Incorrect id
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+    put:
+      summary: Modificar información específica de la sesión
+      description: Modificar información específica de la sesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/sesion_put"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/sesion"
+        "404":
+          description: Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+    delete:
+      summary: Eliminar una sesion
+      description: Eliminar una sesion
+      responses:
+        "204":
+          description: Sesion eliminada
+        "404":
+          description: Error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/error"
+components:
+  parameters:
+    id: 
+      description: ID
+      name: id
+      required: true
+      in: path
+      schema:
+        $ref: "#/components/schemas/id"
+  schemas:
+    id:
+      type: string
+      examples:
+      - example1:ASDFasdfqwef324
+    peliculas:
+      type: array
+      maxItems: 10
+      items:
+        $ref: "#/components/schemas/pelicula"
+      examples:
+      - example1:
+        - nombre: Sound of Freedom
+          directores:
+            - nombre: Alejandro
+              apellidos: Monteverde
+          actores:
+            - nombre: Bill
+              apellidos: Camp
+          duracion: 131
+          generos:
+            - Crime
+            - Drama
+          fecha_estreno: 2023-07-04
+          id: ASDFasdfqwef324
+    persona:
+      type: object
+      properties:
+        nombre:
+          type: string
+        apellidos:
+          type: string
+    pelicula_put:
+      type: object
+      properties:
+        directores:
+          type: array
+          items:
+            $ref: "#/components/schemas/persona"
+        actores:
+          type: array
+          items:
+            $ref: "#/components/schemas/persona"
+        duracion:
+          description: Los minutos que dura la película
+          type: integer
+          minimum: 0
+        generos:
+          type: array
+          items:
+            type: string
+        fecha_estreno:
+          type: string
+          format: date
+        nombre:
+          type: string
+        calificacion:
+          type: string
+          enum:
+            - G
+            - PG
+            - PG-13
+            - R
+            - NC-17
+        link_sesiones:
+          type: string
+          format: uri
+          examples:
+          - example1: /api/v1/peliculas/sadfqwef123/sesiones
+        id:
+          $ref: "#/components/schemas/id"
+      additionalProperties: false
+      examples:
+      - example1:
+        nombre: Sound of Freedom
+        directores:
+          - nombre: Alejandro
+            apellidos: Monteverde
+        actores:
+          - nombre: Bill
+            apellidos: Camp
+        duracion: 131
+        generos:
+          - Crime
+          - Drama
+        fecha_estreno: 2023-07-04
+        calificacion: PG-13
+        link_sesiones: /api/v1/peliculas/sadfqwef123/sesiones
+        id: ASDFasdfqwef324
+    pelicula_post:
+      required:
+        - nombre
+      $ref: "#/components/schemas/pelicula_put"
+    pelicula:
+      required:
+        - nombre
+        - id
+      $ref: "#/components/schemas/pelicula_put"
+    error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+      required:
+        - code
+        - message
+      examples:
+      - example1:
+        code: 123
+        message: Incorrect id
+    sesiones:
+      type: array
+      items:
+        $ref: "#/components/schemas/sesion"
+    sesion_put:
+      type: object
+      properties:
+        sala:
+          type: string
+        fecha:
+          type: string
+          format: date
+        hora:
+          type: string
+          format: time
+        caracteristicas:
+          type: array
+          items:
+            type: string
+            examples:
+            - example1: 3D
+        id:
+          $ref: "#/components/schemas/id"
+      additionalProperties: false
+      examples:
+      - example1:
+        sala: Sala 25
+        fecha: 2023-07-04
+        hora: 21:30
+        caracteristicas: []
+        id: ASDFasdfqwef325
+    sesion_post:
+      required:
+        - sala
+        - fecha
+        - hora
+      $ref: "#/components/schemas/sesion_put"
+    sesion:
+      required:
+        - sala
+        - fecha
+        - hora
+        - id
+      $ref: "#/components/schemas/sesion_put"
+servers:
+  - url: /api/v1

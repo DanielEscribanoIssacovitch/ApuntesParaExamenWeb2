@@ -1,0 +1,33 @@
+# Soluciones al problema 2
+
+## Apartado 1: En la colección listingAndReviews indique el/los nombre(s) del alojamiento con más reviews.
+
+db.listingsAndReviews.find({}, {name: 1, number_of_reviews: 1})
+  .sort({number_of_reviews: 1}) 
+  .limit(-1)
+
+## Apartado 2: En la colección listingAndReviews indique el/los nombre(s) del alojamiento con más amenities.
+
+db.listingsAndReviews.aggregate([
+  { $project: { name: 1, amenitiesCount: { $size: "$amenities" } } },
+  { $sort: { amenitiesCount: -1 } },
+  { $limit: 1 }
+])
+
+
+## Apartado 3: En la colección listingAndReviews indique para cada tipo de property_type el número de alojamientos de ese tipo.
+
+db.listingsAndReviews.aggregate([
+  { $group: { _id: "$property_type", count: { $sum: 1 } } },
+  { $sort: { count: -1 } }
+])
+
+
+## Apartado 4: En la colección listingAndReviews indique el número de alojamientos que tienen 2, 3, 4 o 5 beds.
+
+db.listingsAndReviews.aggregate([
+  { $match: { beds: { $in: [2, 3, 4, 5] } } },
+  { $group: { _id: "$beds", count: { $sum: 1 } } },
+  { $sort: { _id: 1 } }
+])
+
