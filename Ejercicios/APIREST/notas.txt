@@ -1,0 +1,65 @@
+// === 📘 MongoDB: comandos típicos en Node.js usando .collection(COLLECTION) ===
+
+const { MongoClient, ObjectId } = require('mongodb');
+const uri = 'mongodb://localhost:27017';
+const client = new MongoClient(uri);
+
+// Definimos nombre de la base de datos y colección como constantes reutilizables
+const DB_NAME = 'miBaseDeDatos';
+const COLLECTION = 'miColeccion';
+
+async function mongoExamples() {
+  await client.connect();
+  const db = client.db(DB_NAME);
+  const col = db.collection(COLLECTION); // ✅ usamos .collection(COLLECTION)
+
+  // 🔍 Buscar documentos
+  await col.find({ campo: 'valor' }).toArray();          // varios documentos
+  await col.findOne({ campo: 'valor' });                 // un documento
+
+  // 🔍 Buscar con condiciones avanzadas
+  await col.find({ edad: { $gt: 18 } }).toArray();        // edad mayor a 18
+  await col.find({ nombre: { $regex: 'juan', $options: 'i' } }).toArray(); // regex insensible
+  await col.find({ $or: [{ ciudad: 'Madrid' }, { ciudad: 'Valencia' }] }).toArray(); // OR
+
+  // 🔄 Ordenar resultados
+  await col.find().sort({ _id: -1 }).toArray();           // por _id descendente
+  await col.find().sort({ nombre: 1 }).toArray();         // por nombre ascendente
+
+  // 🔢 Limitar y paginar
+  await col.find().limit(10).toArray();                  // limitar resultados
+  await col.find().skip(10).limit(5).toArray();          // paginar
+
+  // 🎯 Proyección (selección de campos)
+  await col.find({}, { projection: { nombre: 1, edad: 1 } }).toArray(); // campos específicos
+
+  // 🆕 Insertar documentos
+  await col.insertOne({ nombre: 'Pedro', edad: 30 });     // insertar uno
+  await col.insertMany([{ nombre: 'A' }, { nombre: 'B' }]); // insertar varios
+
+  // ✏️ Actualizar documentos
+  await col.updateOne({ _id: new ObjectId('...') }, { $set: { edad: 35 } }); // actualizar uno
+  await col.updateMany({ activo: false }, { $set: { activo: true } });      // actualizar varios
+
+  // ➕ Incrementar campos numéricos
+  await col.updateOne({ _id: new ObjectId('...') }, { $inc: { visitas: 1 } });
+
+  // ❌ Eliminar documentos
+  await col.deleteOne({ _id: new ObjectId('...') });      // eliminar uno
+  await col.deleteMany({ activo: false });                // eliminar varios
+
+  // 🛡️ Verificar existencia de campos
+  await col.find({ campo: { $exists: true } }).toArray();
+
+  // 🧠 Buscar por fechas
+  await col.find({
+    fecha: {
+      $gte: new Date('2024-01-01'),
+      $lte: new Date('2024-12-31')
+    }
+  }).toArray();
+
+  await client.close();
+}
+
+mongoExamples().catch(console.error);
